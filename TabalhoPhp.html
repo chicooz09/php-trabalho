@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PHP - Linguagem de Programação Web</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     
+    <header>
+        <div class="php-logo"><img src="imagens/php (2).png" alt="php-logo" class="icon"</a></div>
+        <p>Hypertext Preprocessor - A Linguagem da Web Dinâmica</p>
+    </header>
+
+    <section id="historia">
+        <div class="container">
+            <h2> História do PHP</h2>
+            <div class="content-box fade-in">
+                <p class="intro-text">
+                    O PHP nasceu em 1994, criado por <strong>Rasmus Lerdorf</strong> como um conjunto de scripts CGI chamado "Personal Home Page Tools". Inicialmente, era usado apenas para rastrear visitas ao seu currículo online. Com o tempo, a ferramenta evoluiu e ganhou recursos de banco de dados e formulários.
+                </p>
+            </div>
+
+            <div class="timeline">
+                <div class="timeline-item fade-in">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">1994</div>
+                        <h3>Nascimento</h3>
+                        <p>Rasmus Lerdorf cria o PHP/FI (Personal Home Page / Forms Interpreter) como scripts CGI em C.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item fade-in">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">1997-1998</div>
+                        <h3>PHP 3</h3>
+                        <p>Andi Gutmans e Zeev Suraski reescrevem o núcleo do PHP, criando o Zend Engine. O nome muda para "PHP: Hypertext Preprocessor".</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item fade-in">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">2000</div>
+                        <h3>PHP 4</h3>
+                        <p>Lançamento do Zend Engine 1.0, melhorando performance e recursos. PHP se torna uma das linguagens mais populares da web.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item fade-in">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">2004</div>
+                        <h3>PHP 5</h3>
+                        <p>Introduz Programação Orientada a Objetos completa (POO), exceções, e o Zend Engine 2.0.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item fade-in">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">2015</div>
+                        <h3>PHP 7</h3>
+                        <p>Grande salto de performance (2x mais rápido), tipos de retorno, e redução de consumo de memória.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item fade-in">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">2020-2024</div>
+                        <h3>PHP 8.x</h3>
+                        <p>JIT Compiler, Union Types, Named Arguments, Attributes (Annotations), Enums, e melhorias contínuas de performance.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="mercado">
+        <div class="container">
+            <h2> PHP no Mercado</h2>
+            
+            <div class="stats fade-in">
+                <div class="stat-box">
+                    <div class="stat-number">77%</div>
+                    <div class="stat-label">dos sites usam PHP</div>
+                </div>
+                <div class="stat-box">
+                    <div class="stat-number">Top 3</div>
+                    <div class="stat-label">Linguagem Backend</div>
+                </div>
+                <div class="stat-box">
+                    <div class="stat-number">5M+</div>
+                    <div class="stat-label">Desenvolvedores</div>
+                </div>
+                <div class="stat-box">
+                    <div class="stat-number">30 Anos</div>
+                    <div class="stat-label">de História</div>
+                </div>
+            </div>
+
+            <div class="content-box content-box-margin fade-in">
+                <h3> Empresas que Usam PHP</h3>
+                <div class="cards">
+                    <div class="card">
+                        <div class="card-icon"><img src="imagens/facebook.png" alt="Logo do Facebook"></div>
+                        <h3>Facebook</h3>
+                        <p>Criou o HHVM e Hack, derivados do PHP, para otimizar sua infraestrutura.</p>
+                    </div>
+                    <div class="card">
+                        <div class="card-icon"><img src="imagens/wordpress.png" alt="Logo do wordpress"></div>
+                        <h3>WordPress</h3>
+                        <p>43% da internet roda em WordPress, construído 100% em PHP.</p>
+                    </div>
+                    <div class="card">
+                        <div class="card-icon"><img src="imagens/wikipedia.png" alt="Logo do wikipedia "></div>
+                        <h3>Wikipedia</h3>
+                        <p>Powered by MediaWiki, escrito inteiramente em PHP.</p>
+                    </div>
+                    <div class="card">
+                        <div class="card-icon"><img src="imagens/slack.png" alt="Logo do slack "></div>
+                        <h3>Slack</h3>
+                        <p>Utiliza PHP em partes críticas de sua infraestrutura.</p>
+                    </div>
+                    <div class="card">
+                        <div class="card-icon"><img src="imagens/magento.png" alt="Logo do magento "></div>
+                        <h3>Magento</h3>
+                        <p>Plataforma líder de e-commerce enterprise desenvolvida em PHP.</p>
+                    </div>
+                    <div class="card">
+                        <div class="card-icon"><img src="imagens/moodle.png" alt="Logo do moodle"></div>
+                        <h3>Moodle</h3>
+                        <p>Sistema de gestão de aprendizagem usado por milhões globalmente.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="content-box content-box-margin fade-in">
+                <h3> Por que PHP é Relevante?</h3>
+                <ul>
+                    <li><strong>Custo-benefício:</strong> Hospedagem barata e amplamente disponível</li>
+                    <li><strong>Ecossistema maduro:</strong> Laravel, Symfony, CodeIgniter, WordPress</li>
+                    <li><strong>Comunidade gigante:</strong> Milhões de desenvolvedores e recursos</li>
+                    <li><strong>Integração com bancos de dados:</strong> MySQL, PostgreSQL, MongoDB</li>
+                    <li><strong>Evolução constante:</strong> Melhorias de performance e recursos modernos</li>
+                    <li><strong>Demanda no mercado:</strong> Milhares de vagas abertas constantemente</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="profissional">
+        <div class="container">
+            <h2> Carreira Profissional</h2>
+
+            <div class="cards fade-in">
+                <div class="card">
+                    <div class="card-icon"><img src="imagens/money.png" alt="Logo do money"></div>
+                    <h3>Salários no Brasil</h3>
+                    <p class="salary-item"><strong>Júnior:</strong> R$ 2.500 - R$ 4.500</p>
+                    <p class="salary-item"><strong>Pleno:</strong> R$ 5.000 - R$ 9.000</p>
+                    <p class="salary-item"><strong>Sênior:</strong> R$ 10.000 - R$ 18.000+</p>
+                </div>
+
+                <div class="card">
+                    <div class="card-icon"><img src="imagens/system.png" alt="Logo do system"></div>
+                    <h3>Áreas de Atuação</h3>
+                    <p class="area-item">• Desenvolvimento Web</p>
+                    <p class="area-item">• E-commerce</p>
+                    <p class="area-item">• APIs RESTful</p>
+                    <p class="area-item">• CMS (WordPress, Drupal)</p>
+                    <p class="area-item">• Sistemas Corporativos</p>
+                </div>
+
+                <div class="card">
+                    <div class="card-icon"><img src="imagens/skills.png" alt="Logo do skills"></div>
+                    <h3>Habilidades Necessárias</h3>
+                    <p class="area-item">• POO (Programação Orientada a Objetos)</p>
+                    <p class="area-item">• Bancos de Dados (SQL)</p>
+                    <p class="area-item">• Frameworks (Laravel, Symfony)</p>
+                    <p class="area-item">• Git/GitHub</p>
+                    <p class="area-item">• APIs e Web Services</p>
+                </div>
+            </div>
+
+            <div class="content-box content-box-margin fade-in">
+                <h3> Trajetória de Carreira</h3>
+                <div class="cards">
+                    <div class="card">
+                        <h3>Desenvolvedor Junior</h3>
+                        <p>Foco em aprender a sintaxe, lógica de programação, e trabalhar com código legado. Resolver bugs e implementar funcionalidades simples.</p>
+                    </div>
+                    <div class="card">
+                        <h3>Desenvolvedor Pleno</h3>
+                        <p>Capacidade de desenvolver features completas, entender arquitetura, trabalhar com APIs, e mentorar juniores.</p>
+                    </div>
+                    <div class="card">
+                        <h3>Desenvolvedor Sênior</h3>
+                        <p>Decisões arquiteturais, liderança técnica, otimização de performance, code review, e definição de padrões de projeto.</p>
+                    </div>
+                    <div class="card">
+                        <h3>Tech Lead / Arquiteto</h3>
+                        <p>Visão estratégica, arquitetura de sistemas complexos, gestão de equipe técnica, e decisões de tecnologia.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="ambiente">
+        <div class="container">
+            <h2> Ambiente de Desenvolvimento</h2>
+
+            <div class="tech-grid fade-in">
+                <div class="tech-item">
+                    <div class="tech-icon"><img src="imagens/xampp.png" alt="Logo do xampp"></div>
+                    <h3>XAMPP</h3>
+                    <p>Pacote completo com Apache, MySQL, PHP e Perl. Ideal para desenvolvimento local multiplataforma.</p>
+                    <ul>
+                        <li>Apache Web Server</li>
+                        <li>MySQL/MariaDB</li>
+                        <li>PHP & phpMyAdmin</li>
+                        <li>Fácil configuração</li>
+                    </ul>
+                </div>
+
+                <div class="tech-item">
+                    <div class="tech-icon"><img src="imagens/logo.png" alt="Logo do VSCode"></div>
+                    <h3>Visual Studio Code</h3>
+                    <p>Editor de código leve, poderoso e extensível. Perfeito para desenvolvimento PHP moderno.</p>
+                    <ul>
+                        <li>IntelliSense para PHP</li>
+                        <li>Debugging integrado</li>
+                        <li>Extensões úteis</li>
+                        <li>Git integrado</li>
+                    </ul>
+                </div>
+
+                <div class="tech-item">
+                    <div class="tech-icon"><img src="imagens/extension.png" alt="Logo do extension"></div>
+                    <h3>Extensões VSCode</h3>
+                    <p>Extensões essenciais para turbinar seu desenvolvimento PHP.</p>
+                    <ul>
+                        <li>PHP Intelephense</li>
+                        <li>PHP Debug</li>
+                        <li>Laravel Snippets</li>
+                        <li>PHP DocBlocker</li>
+                    </ul>
+                </div>
+
+                <div class="tech-item">
+                    <div class="tech-icon"><img src="imagens/modernization.png" alt="Logo do modernization"></div>
+                    <h3>Alternativas Modernas</h3>
+                    <p>Outras ferramentas populares no ecossistema PHP.</p>
+                    <ul>
+                        <li>Docker + PHP</li>
+                        <li>Laravel Valet</li>
+                        <li>Laragon</li>
+                        <li>MAMP / WAMP</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="content-box content-box-margin fade-in">
+                <h3> Como Configurar seu Ambiente</h3>
+                <div class="setup-guide">
+                    <h4>Passo 1: Instalar o XAMPP</h4>
+                    <p>2. Execute o instalador e siga as instruções</p>
+                    <p>3. Inicie os módulos Apache e MySQL pelo painel de controle</p>
+                    
+                    <h4 class="setup-guide-step">Passo 2: Instalar o VS Code</h4>
+                    <p>2. Instale as extensões PHP essenciais</p>
+                    <p>3. Configure o path do PHP nas configurações</p>
+                    
+                    <h4 class="setup-guide-step">Passo 3: Criar seu Primeiro Projeto</h4>
+                    <p>1. Crie uma pasta em C:/xampp/htdocs/meuprojeto</p>
+                    <p>2. Crie um arquivo index.php</p>
+                    <p>3. Acesse http://localhost/meuprojeto no navegador</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="stack">
+        <div class="container">
+            <h2> Back-end, Front-end e Full Stack</h2>
+
+            <div class="cards fade-in">
+                <div class="card card-backend">
+                    <div class="card-icon"><img src="imagens/web-programming.png" alt="Logo do back-end"></div>
+                    <h3>Back-end</h3>
+                    <p><strong>PHP é uma linguagem back-end!</strong></p>
+                    <p>Responsável pela lógica do servidor, processamento de dados, banco de dados, autenticação e APIs.</p>
+                    <ul>
+                        <li>Processa requisições HTTP</li>
+                        <li>Conecta com bancos de dados</li>
+                        <li>Gerencia sessões e cookies</li>
+                        <li>Implementa regras de negócio</li>
+                        <li>Cria APIs REST/GraphQL</li>
+                    </ul>
+                </div>
+
+                <div class="card card-frontend">
+                    <div class="card-icon"><img src="imagens/web-design.png" alt="Logo do front-end "></div>
+                    <h3>Front-end</h3>
+                    <p>Interface visual que o usuário vê e interage. PHP pode gerar HTML dinamicamente!</p>
+                    <ul>
+                        <li>HTML (estrutura)</li>
+                        <li>CSS (estilo e design)</li>
+                        <li>JavaScript (interatividade)</li>
+                        <li>React, Vue, Angular</li>
+                        <li>PHP renderiza templates</li>
+                    </ul>
+                </div>
+
+                <div class="card card-fullstack">
+                    <div class="card-icon"><img src="imagens/web.png" alt="Logo do card-fullstack"></div>
+                    <h3>Full Stack</h3>
+                    <p>Desenvolvedor que domina tanto front-end quanto back-end, capaz de criar aplicações completas.</p>
+                    <ul>
+                        <li>PHP (back-end)</li>
+                        <li>HTML/CSS/JS (front-end)</li>
+                        <li>Banco de dados</li>
+                        <li>APIs e integrações</li>
+                        <li>Deploy e DevOps</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="content-box content-box-margin fade-in">
+                <h3> Como PHP se Integra</h3>
+                <div class="integration-box">
+                    <p class="intro-text">
+                        <strong>No desenvolvimento web moderno,</strong> o PHP atua principalmente no back-end, processando dados e gerando respostas. Ele pode ser usado de duas formas principais:
+                    </p>
+                    
+                    <div class="integration-section">
+                        <h4> 1. Renderização Server-Side (Tradicional)</h4>
+                        <p>PHP gera o HTML completo no servidor e envia para o navegador. Usado em WordPress, Laravel com Blade, sistemas legados.</p>
+                        <div class="code-example">
+                            &lt;?php echo "&lt;h1&gt;Olá, " . $nome . "&lt;/h1&gt;"; ?&gt;
+                        </div>
+                    </div>
+
+                    <div class="integration-section">
+                        <h4> 2. API Backend (Moderno)</h4>
+                        <p>PHP cria APIs que retornam JSON. O front-end (React, Vue, Angular) consome esses dados e renderiza a interface. Arquitetura moderna e desacoplada.</p>
+                        <div class="code-example">
+                            // PHP retorna JSON<br>
+                            echo json_encode(['nome' => 'João', 'idade' => 25]);
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p><strong>PHP - Hypertext Preprocessor</strong></p>
+            <p>Trabalho Acadêmico sobre PHP e Desenvolvimento Web</p>
+            <p>2024 - Linguagem que Move a Web</p>
+        </div>
+    </footer>
+</body>
+</html>
